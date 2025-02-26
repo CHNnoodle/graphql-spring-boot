@@ -27,6 +27,7 @@ plugins {
 //    id "com.jfrog.artifactory" version "4.15.1" apply false
     id "org.sonarqube" version "3.0"
     id "jacoco"
+    id 'idea'
 }
 
 sonarqube {
